@@ -38,12 +38,15 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void checkEmpty() { //Cambiar a True or False
+
+    public void checkEmpty() { //Cambiar DepartamentAdapter True or False
         if (mBinding.emailAddress.getText().toString().isEmpty()) {
             Toast.makeText(this, "Ingrese Correo Electrónico", Toast.LENGTH_LONG).show();
         }
         if (mBinding.emailPassword.getText().toString().isEmpty()) {
             Toast.makeText(this, "Ingrese Contrasenia", Toast.LENGTH_LONG).show();
+
+
         }
     }
 

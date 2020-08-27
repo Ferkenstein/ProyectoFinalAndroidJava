@@ -4,6 +4,7 @@
     <dimen name="margen_top">108dp</dimen>
     <dimen name="margen_medio">30dp</dimen>
     <dimen name="margen_btn">50dp</dimen>
+    <dimen name="margen_recyclerView">15dp</dimen>
 
 
 </resources>
