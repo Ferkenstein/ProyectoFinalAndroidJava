@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fillApartament() {
-        Departament apartment01 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , R.drawable.edificio1);
-        Departament apartment02 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , R.drawable.edificio1);
-        Departament apartment03 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , R.drawable.edificio1);
+        Departament apartment01 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " ,"https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
+        Departament apartment02 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
+        Departament apartment03 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
 
         departamentList.add(apartment01);
         departamentList.add(apartment02);
