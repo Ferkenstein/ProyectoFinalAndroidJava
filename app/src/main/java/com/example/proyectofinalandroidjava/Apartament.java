@@ -1,17 +1,17 @@
 package com.example.proyectofinalandroidjava;
 
-public class Departament {
+public class Apartament {
 
     private String nombre_proyecto;
     private String direccion_proyecto;
     private String numero_proyecto;
     private String imagen_proyecto;
 
-    public Departament() {
+    public Apartament() {
 
     }
 
-    public Departament(String nombre_proyecto, String direccion_proyecto, String numero_proyecto, String imagen_proyecto) {
+    public Apartament(String nombre_proyecto, String direccion_proyecto, String numero_proyecto, String imagen_proyecto) {
         this.nombre_proyecto = nombre_proyecto;
         this.direccion_proyecto = direccion_proyecto;
         this.numero_proyecto = numero_proyecto;

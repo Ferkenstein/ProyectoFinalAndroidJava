@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    public void checkEmpty() { //Cambiar DepartamentAdapter True or False
+    public void checkEmpty() { //Cambiar ApartamentAdapter True or False
         if (mBinding.emailAddress.getText().toString().isEmpty()) {
             Toast.makeText(this, "Ingrese Correo Electrónico", Toast.LENGTH_LONG).show();
         }

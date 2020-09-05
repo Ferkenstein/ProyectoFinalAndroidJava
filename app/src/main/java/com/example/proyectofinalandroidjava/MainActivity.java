@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<Departament> departamentList;
+    ArrayList<Apartament> apartamentList;
     RecyclerView recyclerDepartament;
 
     @Override
@@ -18,25 +18,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        departamentList = new ArrayList<>();
+        apartamentList = new ArrayList<>();
         recyclerDepartament = findViewById(R.id.recycler_id);
         recyclerDepartament.setLayoutManager(new LinearLayoutManager(this));
 
         fillApartament();
 
-        DepartamentAdapter adapter = new DepartamentAdapter(departamentList);
+        ApartamentAdapter adapter = new ApartamentAdapter(apartamentList);
         recyclerDepartament.setAdapter(adapter);
 
     }
 
     private void fillApartament() {
-        Departament apartment01 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " ,"https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
-        Departament apartment02 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
-        Departament apartment03 = new Departament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
+        Apartament apartment01 = new Apartament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " ,"https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
+        Apartament apartment02 = new Apartament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
+        Apartament apartment03 = new Apartament("Edificio Almendro", "San jose 345, La florida , Santiago", "Torre 1, depto 2002 " , "https://unsplash.com/photos/Ub9LkIWxyec/download?force=true&w=640");
 
-        departamentList.add(apartment01);
-        departamentList.add(apartment02);
-        departamentList.add(apartment03);
+        apartamentList.add(apartment01);
+        apartamentList.add(apartment02);
+        apartamentList.add(apartment03);
 
     }
 }
